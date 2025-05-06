@@ -46,8 +46,14 @@ export const NAVIGATION = {
   DASHBOARD_Main: [
     {
       title: "Overview",
-      url: "/dashboard",
+      url: "#",
       icon: ChartLine,
+      items: [
+        {
+          title: "Overview",
+          url: "/dashboard",
+        },
+      ],
     },
     {
       title: "MCP playground",

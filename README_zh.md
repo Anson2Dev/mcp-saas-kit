@@ -3,7 +3,7 @@
 一个现代化的SaaS应用程序启动模板，基于**Next.js 15.4.0-canary.9**构建，集成了用户认证、团队管理、Stripe支付和活动日志等核心功能。专为快速开发和部署而设计，助您在短时间内构建专业级SaaS产品。
 
 **演示: [https://mcp.day/](https://mcp.day/)**
-*测试账户: 1@love2.dev, 密码: love2dev*
+～～测试账户: 1@love2.dev, 密码: love2dev～～ 直接注册👻
 
 *[English Documentation](README.md)*
 
