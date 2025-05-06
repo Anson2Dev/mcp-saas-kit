@@ -1,4 +1,4 @@
-"use client";
+"use client"
 
 import * as React from "react";
 import Link from "next/link";
@@ -20,7 +20,7 @@ import {
   SidebarMenuSubButton,
 } from "@/components/ui/sidebar";
 import { ThemeToggle } from "@/components/theme-toggle";
-import { NAVIGATION, SITE } from "@/lib/constants";
+import { NAVIGATION, SITE } from "@/constants";
 import { Sunrise } from "lucide-react";
 
 export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {

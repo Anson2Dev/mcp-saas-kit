@@ -2,7 +2,7 @@ import { NextRequest, NextResponse } from 'next/server';
 import { db } from '@/lib/db/drizzle';
 import { apiKeys, ActivityType } from '@/lib/db/schema';
 import { getUser, getUserWithTeam } from '@/lib/db/queries';
-import { API_PREFIX } from '@/lib/constants';
+import { API_PREFIX } from '@/constants';
 import { randomBytes } from 'crypto';
 import { logActivity } from '@/lib/db/activity';
 

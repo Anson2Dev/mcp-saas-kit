@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import { Sunrise } from 'lucide-react';
-import { SITE } from '@/lib/constants';
+import { SITE } from '@/constants';
 
 export default function NotFound() {
   return (

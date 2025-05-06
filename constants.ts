@@ -8,16 +8,18 @@ export const SITE = {
   NAME: "MCP.Day",
   // 网站URL
   URL: "https://mcp.day",
+  //GITHUB REPO
+  GITHUB_REPO_URL:"https://github.com/Anson2Dev/mcp-saas-kit",
 };
 
 /**
  * 社交媒体链接
  */
 export const SOCIAL = {
-  GITHUB: "https://github.com/Anson2Dev/mcp-saas-kit",
+  GITHUB: "https://github.com/Anson2Dev",
   TWITTER: "https://twitter.com/mcpday",
   DISCORD: "https://discord.gg/mcpday",
-  WECHAT: "mcpday",
+  WECHAT: "ansonhyq",
 };
 
 /**
@@ -125,3 +127,6 @@ export const MCP_CONFIG_EXAMPLE = `{
     }
   }
 }`;
+
+export const GOOGLE_OAUTH_STATE_COOKIE_NAME = "google-oauth-state";
+export const GOOGLE_OAUTH_CODE_VERIFIER_COOKIE_NAME = "google-oauth-code-verifier";

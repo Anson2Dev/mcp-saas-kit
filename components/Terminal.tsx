@@ -4,7 +4,8 @@ import { useState, useEffect } from 'react';
 
 export function Terminal() {
   const [text, setText] = useState('');
-  const fullText = `$ npx create-next-app --example mcp-saas-kit your-mcp-saas-app
+  const fullText = `$ # Just a demo script
+$ npx create-next-app --example mcp-saas-kit your-mcp-saas-app
 ✓ Cloning template...
 ✓ Installing dependencies...
 ✓ Initializing project...

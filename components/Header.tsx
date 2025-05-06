@@ -23,7 +23,7 @@ import { User } from '@/lib/db/schema';
 import useSWR from 'swr';
 import { ThemeToggle } from '@/components/theme-toggle';
 
-import { SITE } from '@/lib/constants';
+import { SITE } from '@/constants';
 
 /**
  * SWR数据获取函数

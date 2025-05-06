@@ -35,7 +35,7 @@ import {
 } from '@/components/ui/tooltip';
 import { Slider } from '@/components/ui/slider';
 import { Bot, Copy, User, Send, Loader2, CheckCircle, Info } from 'lucide-react';
-import { API_PREFIX, MCP_CONFIG_EXAMPLE } from "@/lib/constants";
+import { API_PREFIX, MCP_CONFIG_EXAMPLE } from "@/constants";
 import { toast } from "sonner";
 
 /**
