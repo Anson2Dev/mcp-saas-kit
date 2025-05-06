@@ -3,7 +3,8 @@
 A modern SaaS application starter template built with **Next.js 15.4.0-canary.9**, featuring user authentication, team management, Stripe payments, and activity logging. Designed for rapid development and deployment, helping you build professional-grade SaaS products in ONE DAY.
 
 **Demo: [https://mcp.day/](https://mcp.day/)**
-*test account: 1@love2.dev, pwd:love2dev*
+～～test account: 1@love2.dev, pwd:love2dev～～ Register directly
+
 *[中文文档](README_zh.md)*
 
 ## ✨ Core Features
