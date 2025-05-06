@@ -1,4 +1,4 @@
-# MCP SaaS Starter Kit
+# MCP SaaS Kit Template
 
 A modern SaaS application starter template built with **Next.js 15.4.0-canary.9**, featuring user authentication, team management, Stripe payments, and activity logging. Designed for rapid development and deployment, helping you build professional-grade SaaS products in ONE DAY.
 
