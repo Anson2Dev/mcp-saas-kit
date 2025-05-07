@@ -23,7 +23,7 @@ import { User } from '@/lib/db/schema';
 import useSWR from 'swr';
 import { ThemeToggle } from '@/components/theme-toggle';
 
-import { SITE } from '@/constants';
+import { SITE, NAVIGATION } from '@/constants';
 
 /**
  * SWR数据获取函数
@@ -117,14 +117,7 @@ export function Header() {
   // 获取当前路径，用于高亮当前导航项
   const pathname = usePathname();
 
-  // 导航菜单项配置
-  const navItems = [
-    { href: '/blog', label: 'Blog' },
-    { href: '/about', label: 'About' },
-    { href: '/docs', label: 'Docs' },
-    { href: '/pricing', label: 'Pricing' },
-  ];
-
+  
   return (
     <header className="sticky top-0 z-40 border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
@@ -134,23 +127,23 @@ export function Header() {
           <div className="flex items-center">
             {/* 网站标志 */}
             <Link href="/" className="flex items-center">
-              <Sunrise className="h-6 w-6 text-orange-500" />
+              <Sunrise className="h-6 w-6 text-purple-500" />
               <span className="ml-2 text-xl font-semibold text-foreground">{SITE.NAME}</span>
             </Link>
 
             {/* 桌面导航 - 在中等及以上屏幕显示 */}
             <nav className="hidden md:ml-10 md:flex md:space-x-8">
-              {navItems.map((item) => (
+              {NAVIGATION.MAIN.map((item) => (
                 <Link
                   key={item.href}
                   href={item.href}
                   className={`text-sm font-medium ${
                     pathname === item.href
-                      ? 'text-orange-500'  // 当前页面高亮
+                      ? 'text-purple-500'  // 当前页面高亮
                       : 'text-muted-foreground hover:text-foreground'  // 非当前页面
                   }`}
                 >
-                  {item.label}
+                  {item.name}
                 </Link>
               ))}
             </nav>
@@ -186,18 +179,18 @@ export function Header() {
           <div className="md:hidden pt-2 pb-4">
             {/* 导航链接 */}
             <div className="space-y-1">
-              {navItems.map((item) => (
+              {NAVIGATION.MAIN.map((item) => (
                 <Link
                   key={item.href}
                   href={item.href}
                   className={`block py-2 text-base font-medium ${
                     pathname === item.href
-                      ? 'text-orange-500'  // 当前页面高亮
+                      ? 'text-purple-500'  // 当前页面高亮
                       : 'text-muted-foreground hover:text-foreground'  // 非当前页面
                   }`}
                   onClick={() => setMobileMenuOpen(false)}  // 点击后关闭菜单
                 >
-                  {item.label}
+                  {item.name}
                 </Link>
               ))}
             </div>

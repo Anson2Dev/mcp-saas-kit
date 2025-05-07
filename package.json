@@ -11,6 +11,7 @@
     "db:studio": "drizzle-kit studio"
   },
   "dependencies": {
+    "@icons-pack/react-simple-icons": "^12.7.0",
     "@radix-ui/react-accordion": "^1.2.10",
     "@radix-ui/react-avatar": "^1.1.6",
     "@radix-ui/react-collapsible": "^1.1.8",

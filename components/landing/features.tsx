@@ -19,7 +19,7 @@ const features = [
   {
     name: "Database & Email",
     description:
-      "Drizzle ORM with Cloudflare D1 for the database, and React Email with Resend for beautiful email templates.",
+      "Drizzle ORM with Supabase PostgreSQL(Cloudflare D1 later) for the database, and React Email with Resend for beautiful email templates.",
     icon: Mail,
   },
   {
@@ -37,7 +37,7 @@ const features = [
   {
     name: "Edge Deployment",
     description:
-      "Deploy globally with Cloudflare Workers for zero cold starts and leverage Cloudflare's edge network for blazing-fast performance.",
+      "Deploy globally with vercel for blazing-fast performance.",
     icon: CloudIcon,
   },
   {
@@ -66,10 +66,10 @@ export function Features() {
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:text-center">
           <h2 className="text-base font-semibold leading-7 text-indigo-600 dark:text-indigo-400">
-            Production Ready
+            ONE DAY Production
           </h2>
           <p className="mt-2 text-3xl font-bold tracking-tight sm:text-4xl">
-            Everything you need to build a SaaS
+            Everything you need to build a SaaS and api keys
           </p>
           <p className="mt-6 text-lg leading-8 text-muted-foreground">
             Start with a complete foundation. All the essential features are built-in,

@@ -17,18 +17,12 @@ export const SITE = {
  */
 export const SOCIAL = {
   GITHUB: "https://github.com/Anson2Dev",
-  TWITTER: "https://twitter.com/mcpday",
+  X: "https://x.com/mcpday",
   DISCORD: "https://discord.gg/mcpday",
   WECHAT: "ansonhyq",
+  EMAIL: "anson@love2.dev",
 };
 
-/**
- * 联系信息
- */
-export const CONTACT = {
-  EMAIL: "contact@mcp.day",
-  SUPPORT: "support@mcp.day",
-};
 
 /**
  * 导航链接
