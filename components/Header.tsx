@@ -119,10 +119,10 @@ export function Header() {
 
   // 导航菜单项配置
   const navItems = [
+    { href: '/pricing', label: 'Pricing' },
+    { href: '/docs', label: 'Docs' },
     { href: '/blog', label: 'Blog' },
     { href: '/about', label: 'About' },
-    { href: '/docs', label: 'Docs' },
-    { href: '/pricing', label: 'Pricing' },
   ];
 
   return (
